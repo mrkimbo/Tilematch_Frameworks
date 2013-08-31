@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Backbone Widget</title>
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <!-- endbuild -->
+  <script type="text/javascript" src="js/lib/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<div id="container">
+  <h3>Tile Match</h3>
+
+  <p class="subTitle">Select any two images to see if they match.</p>
+
+  <div id="gameview">
+
+    <div id="tileContainer" class="borderedContainer grey range">
+
+      <!-- begin tile template -->
+      <script type="text/template" id="tile-template">
+        <div class="tile">
+          <div class="tilewrapper">
+            <div class="front">
+              <img src="<%= src %>"/>
+            </div>
+            <div class="back">
+              <img src="img/tickIcon.png"/>
+            </div>
+          </div>
+        </div>
+      </script>
+      <!-- end tile template -->
+
+    </div>
+    <div class="btnContainer">
+      <input type="button" id="resetBtn" class="button" value="RESET"/>
+    </div>
+
+    <div id="completeMsg">
+      <div class="overlay"></div>
+      <div class="content">
+        <h3>Congratulations</h3>
+        <p>You have matched all of the images.</p>
+        <p>Press the reset button if you would like try again.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript" data-main="js/main" src="js/lib/require.js"></script>
+
+</body>
+</html>
