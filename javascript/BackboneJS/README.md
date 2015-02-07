@@ -1,11 +1,15 @@
-TileMatch - Backbone JS
+TileMatch - Backbone JS 
 =======================
 
-Tile matching game re-created in BackboneJS as a learning exercise.
+Tile matching game re-created in BackboneJS as a learning exercise. 
+[Demo](http://tripleaxis.bitbucket.org/tilematch-backbone/)
 
+---
 Resources: 
 http://addyosmani.github.io/backbone-fundamentals/#backbone-basics
 http://ricostacruz.com/backbone-patterns/
+
+---
 
 *Thoughts:*
 
@@ -32,12 +36,3 @@ http://ricostacruz.com/backbone-patterns/
 	
 	*Templates*
 	I originally set this example up using runtime loaded data and templates (using the require text plugin) but you need a local server running in order to get this to work, so I dialled back to [inline templates] (http://ricostacruz.com/backbone-patterns/#inline_templates) as I wanted these examples to be as easy to setup and run as possible.
-	
-	
-	
-	
-	
-	
-	
-	
-		
